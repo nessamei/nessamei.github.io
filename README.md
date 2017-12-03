@@ -5,11 +5,15 @@
 <h3>Personal Information</h3>
 <hr>
 <p>AGE: 19 Years Old</p>
+<p>PLACE OF BIRTH: Silang, Cavite</p>
 <p>ADDRESS: 152 Buho Amadeo Cavite</p>
 <p>GENDER: Female </p>
 <p>BITHDAY: October 06, 1998</p>
 <p>CONTACT NUMBER: 09067478944</p>
 <p>EMAIL:  vanessadyosa@yahoo.com  </p>
+<p>Religion: Catholic</p>
+<p>Father's Name: Rolando C. Villero</p>
+<p>Mother's Name: Terisita Villero</p>
 <hr>
 <h3>Educational Backgound</h3>
 <hr>
