@@ -1,0 +1,56 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    bargin-bottom: 0;
+    border: 0;
+	font-family:Harrington;
+    font-size: 12px !important;
+    letter-spacing: 5px;
+    opacity:0.9;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+.navbar-brand{
+font-family:Lucida Handwriting;
+letter-spacing: 4px;
+
+}
+div.img {
+    margin: 20px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 295px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 50;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.w3-third {
+    margin: 20px;
+    float: left;
+    width: 200px;
+   
+}	
+ .carousel-inner img {
+      height: 300;
+      width: 100%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }

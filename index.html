@@ -1,0 +1,300 @@
+
+ <!DOCTYPE HTML>
+<html>
+<head>
+<title>WEB PORTFOLIO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> <link rel ="stylesheet" href="style.css"> 
+ <style>
+ body{
+  background-color: white;
+  background-position: fixed;
+ }
+  .carousel-inner img {
+      width: 100%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+ 
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  
+.row{
+      text-align: center;
+
+
+    }
+  .table {
+    width: 83%;
+}
+
+.th {
+    height: 70px;
+}
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Web Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#proj">PROJECTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="keme/one.png" alt="1" width="1350" height="300">     
+      </div>
+
+      <div class="item">
+        <img src="keme/two.png" alt="2" width="1350" height="50">      
+      </div>
+    
+      <div class="item">
+        <img src="keme/3.png" alt="3" width="1350" height="50">
+    </div>
+
+    <div class="item">
+        <img src="keme/4.png" alt="4" width="1350" height="50">
+    </div>
+
+    <div class="item">
+        <img src="keme/5.png" alt="5" width="1350" height="50">
+    </div>
+
+    <div class="item">
+        <img src="keme/6.png" alt="6" width="1350" height="50">      
+      </div>
+    
+      <div class="item">
+        <img src="keme/7.png" alt="7" width="1350" height="50">
+    </div>
+
+    <div class="item">
+        <img src="keme/8.png" alt="8" width="1350" height="50">
+    </div>
+
+    <div class="item">
+        <img src="keme/9.png" alt="9" width="1350" height="50">
+    </div>
+
+    <div class="item">
+        <img src="keme/10.png" alt="10" width="1350" height="50">
+    </div>
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+
+
+<div id="about">
+  <div class="row">
+    <div class="col-md-3" style="background-color:pink;"> <br>
+     <a href="me.jpg"> <img src="me.jpg" class="img-circle" alt="me" width="180" height="150"> </a><br><br><br>
+      <p><b> NAME:</b> Vanessa Mei Vega Villero</p>
+      <p><b>EMAIL:</b> vvillero@yahoo.com</p>
+      <p><b>ADDRESS:</b> 152 Buho Amadeo Cavite</p>
+      <p><b>GENDER:</b> Female</p>
+      <p><b>AGE:</b> 19 Years Old</p>
+      <p><b>BIRTHDAY:</b> October 06, 1998</p>
+      <p><b>STATUS:</b> Single</p> <br>
+</div>
+      
+      <div class="col-md-9" style="background-color:yellow; height: 440px">
+      <div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        
+        <th><center>SKILLS</center></th>
+        <th><center>POOR</center></th>
+        <th><center>GOOD</center></th>
+        <th><center>EXELENT</center></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="success">
+        <td><b>C++</b></td>
+        <td></td>
+        <td>✔️</td>
+         <td></td>
+      </tr>
+      <tr class="danger">
+        <td><b>Java</b></td>
+        <td>✔️</td>
+        <td></td>
+         <td></td>
+      </tr>
+      <tr class="info">
+        <td><b>CSharp</b></td>
+        <td></td>
+        <td>✔️</td>
+         <td></td>
+      </tr>
+      <tr class="success">
+        <td><b>MySQL</b></td>
+        <td>✔️</td>
+        <td></td>
+         <td></td>
+      </tr>
+      <tr class="danger">
+        <td><b>HTML</b></td>
+        <td></td>
+        <td>✔️</td>
+         <td></td>
+      </tr>
+      <tr class="info">
+        <td><b>CSS</b></td>
+        <td></td>
+        <td>✔️</td>
+         <td></td>
+      </tr>
+      <tr class="success">
+        <td><b>JAVASCRIPT</b></td>
+        <td>✔️</td>
+        <td></td>
+         <td></td>
+      </tr>
+      <tr class="danger">
+        <td><b>PHP</b></td>
+        <td></td>
+        <td>✔️</td>
+         <td></td>
+      </tr>
+      <tr class="info">
+        <td><b>JQUERY</b></td>
+        <td>✔️</td>
+        <td></td>
+         <td></td>
+      </tr>
+      <tr class="success">
+        <td><b>BOOTSTRAP</b></td>
+        <td></td>
+        <td>✔️</td>
+         <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div id="proj">
+ <div class="col-md-12" style="background-color:#80ffaa;">
+  <center> <h1 style="font-family:Lucida Handwriting;"> <b>Projects</b></h1> </center> <br>
+ 
+</div>
+   
+    <div class="col-md-12" style="background-color:lightblue;">
+      <center> <h1 style="font-family:courier;"> <b>C++</b></h1> </center>
+  <p style="font-size:160%; font-family:courier;" align="left"> <mark> Simple for loop using C++ </mark></p>
+  <img src="for/Screenshot (38).png" alt="38" width="500" height="250">
+  <img src="for/Screenshot (37).png" alt="38" align="right" width="500" height="250"> <br><br> 
+  <p style="font-size:160%; font-family:courier;" align="right"> <mark> Output </mark> </p> 
+</div>
+
+<div class="col-md-12" style="background-color:violet;">
+ <center> <h1 style="font-family:courier;"> <b>JAVA</b></h1> </center>
+ <p style="font-size:160%; font-family:courier;" align="center"> <mark> Simple Calculator </mark></p>
+  <center> <img src="Screenshots/Screenshot (60).png" alt="60" width="550" height="300"> </center> <br><br>
+</div>
+
+<div class="col-md-12" style="background-color:#ff8080;">
+ <center> <h1 style="font-family:courier;"> <b>CSHARP</b></h1> </center>
+ <p style="font-size:160%; font-family:courier;" align="center"> <mark> Ordering System </mark></p>
+  <center> <img src="Screenshots/Screenshot (53).png" alt="60" width="550" height="300"> </center> <br><br>
+</div>
+
+<div class="col-md-12" style="background-color:#ffff80;">
+ <center> <h1 style="font-family:courier;"> <b>MYSQL</b></h1> </center>
+ <p style="font-size:160%; font-family:courier;" align="center"> <mark> Hotel Management System </mark></p>
+  <center> <img src="Screenshots/hotel2.png" alt="60" width="550" height="300"> </center> <br><br>
+</div>
+
+<div class="col-md-12" style="background-color:#80b3ff;">
+ <center> <h1 style="font-family:courier;"> <b>HTML</b></h1> </center>
+ <p style="font-size:160%; font-family:courier;" align="center"> <mark> Reservation System </mark></p>
+  <center> <img src="Screenshots/Screenshot (62).png" alt="60" width="550" height="300"> </center> <br><br>
+</div>
+</div>
+<div class="col-md-12" style="background-color:#ff99ff;">
+  <center> <h4 style="font-family:courier;"> <b>Creator: Vanessa Mei Villero</b></h4> </center>
+</div>
+</body>
+</html>
